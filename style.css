@@ -269,7 +269,6 @@ background: url(./resources/Rectangle\ 2.png), lightgray -91.279px 0px / 150.038
 
 .new-part3{
     margin-left: 118px;
-    margin-top: 30px;
 }
 
 .new-2024{
@@ -297,4 +296,202 @@ margin-bottom: 40px;
     width: 140px;
 height: 140px;
 flex-shrink: 0;
+}
+
+/* Holyday part style */
+
+.holiday-p{
+    margin-top: 120px;
+    margin-left: 568px;
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.holiday-p1{
+    margin-top: 16px;
+    margin-bottom: 28px;
+    margin-left: 400px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 1100;
+    line-height: normal;
+   
+}
+.holyday-red{
+ color: #F00;
+}
+
+.holiday-p2{
+    margin-left: 200px;
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+
+.holyday-img{
+    display: flex;
+}
+
+.holiday-img1{
+    position: relative;
+    margin-top: 500px;
+    margin-left: 100px;
+    margin-right: 140px;
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+}
+.holiday-img2{
+    position: relative;
+    top: -662PX;
+    margin-left: 990px;
+    width: 429px;
+height: 433px;
+border-radius: 16px 16px 0px 0px;
+background: url(./resources/Rectangle\ 1.png), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+}
+
+.img-box{
+    position: relative;
+    top: -400px;
+    
+}
+
+
+.img-50{
+    position: relative;
+    top: -950px;
+    margin-left: 886px;
+    width: 206.841px;
+    height: 206.841px;
+    flex-shrink: 0;
+}
+
+
+.best{
+    margin-left: 100px;
+    position: relative;
+    margin-top: -500px;
+}
+.best-p{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.best-h{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.best-p2{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+
+/* 6 image style */
+.grid-container {
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  /* Subscribe Newsletter style  */
+
+  .news{
+    margin-left: 100px;
+    width: 1320px;
+height: 616px;
+flex-shrink: 0;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+  }
+
+  .img-gmail{
+    width: 150px;
+height: 150px;
+margin-top: 80px;
+margin-left: 585px;
+  }
+
+.news-h1{
+    margin-left: 200;
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.news-p2{
+    margin-left: 212px;
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+.input-container {
+    position: relative;
+    display: inline-block; /* Ensures elements are displayed in the same line */
+    margin-left: 330px;
+    margin-top: 48px;
+}
+
+.email-input {
+    width: 648px;
+    padding-right: 100px; /* Reserve space for the button */
+height: 72px;
+border: #FFF 3px;
+border-radius: 50px;
+background: #FFF;
+padding-left: 30px;
+
+}
+
+.submit-button {
+    color: #FFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 210px;
+height: 72px;
+flex-shrink: 0;
+border: #FFF 3px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
 }
