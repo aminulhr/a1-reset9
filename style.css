@@ -522,13 +522,15 @@ font-weight: 500;
 
 .My-div{
     display: flex;
+    justify-content: space-between;
 }
 
 .my-icon{
     position: relative;
-    right: 50px;
+    right: 820px;
     margin-top: 300px;
-    padding-left: 100px;
+    margin-bottom: 50px;
+    /* padding-left: 100px; */
 }
 
 .my-2017{
@@ -543,6 +545,7 @@ line-height: normal;
 
 .mybtn{
     position: relative;
+    top: -10px;
     margin-left: 1215px;
     color: #FFF;
     background-color: #070211;
