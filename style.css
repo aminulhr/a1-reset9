@@ -157,3 +157,144 @@ color: #FFF;
     line-height: normal;
     text-transform: uppercase;
 }
+
+/* price part style        */
+.Price{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    width: 1320px;
+    height: 482px;
+
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.Price-text{
+    position: relative;
+    top: 150px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Price-red{
+    color: #F00;
+}
+
+.Price-btn{
+    margin-top: 200px;
+    margin-left: 608px;
+    padding: 16px;
+    border: #F00;
+    border-radius: 10px;
+    background-color: red;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+/* offer part style  */
+
+.offer{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.new-offer {
+    color: #F00;
+/* text-align: center; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.new-offer2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 16px;
+margin-bottom: 22px;
+}
+
+.new-offer3{
+    margin-right: 70px;
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.rectangular{
+position: relative;
+top: -60px;
+width: 463px;
+height: 463px;
+border-radius: 463px;
+border: 15px solid #F00;
+
+
+}
+
+.rectangular-img{
+
+    margin: 49px;
+    width: 364.844px;
+height: 364.844px;
+border-radius: 364.844px;
+background: url(./resources/Rectangle\ 2.png), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+}
+
+.new-part3{
+    margin-left: 118px;
+    margin-top: 30px;
+}
+
+.new-2024{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.new-text{
+ width: 276px;
+ color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */   
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.new-happy{
+    width: 140px;
+height: 140px;
+flex-shrink: 0;
+}
