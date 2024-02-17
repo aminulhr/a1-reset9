@@ -495,3 +495,61 @@ border: #FFF 3px;
 border-radius: 0px 50px 50px 0px;
 background: #F00;
 }
+
+/* fottert style  */
+
+.fotter-container{
+    margin-top: 120px;
+    width: 1600px;
+height: 609px;
+background: #070211;
+}
+
+.my-p{
+    position: relative;
+    top: 5px;
+    margin-top: 120px;
+    margin-left: 100px;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+
+}
+
+
+
+.My-div{
+    display: flex;
+}
+
+.my-icon{
+    position: relative;
+    right: 50px;
+    margin-top: 300px;
+    padding-left: 100px;
+}
+
+.my-2017{
+    margin-left: 100px;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.mybtn{
+    position: relative;
+    margin-left: 1215px;
+    color: #FFF;
+    background-color: #070211;
+    border: #070211 3px;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
